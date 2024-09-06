@@ -17,9 +17,11 @@ FROM ubuntu:20.04
 
 # ENV API_URL="http://localhost:44100"
 # ENV AUTH_CALLBACK_URL="http://localhost:44300"
+# note - this is the prefferred format
 
 ENV API_URL http://localhost:44100
 ENV AUTH_CALLBACK_URL http://localhost:44300
+# note - this is the legacy foramt
 
 WORKDIR /build
 
